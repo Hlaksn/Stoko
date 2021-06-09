@@ -1,0 +1,60 @@
+.split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      /* Control the left side */
+      .left {
+        left: 0;
+        background-color: rgb(13, 6, 110);
+      }
+      
+      /* Control the right side */
+      .right {
+        right: 0;
+         background-color: #140f38;
+      }
+
+.global-container{
+	height:100%;
+    right:0;
+	display: flex;
+	align-items: center;
+	margin-left: 10%;
+
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
